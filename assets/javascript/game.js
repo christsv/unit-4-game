@@ -163,8 +163,13 @@ $("#attack-button").on("click", function(){
     }
     //withouth the defender = false it will hold the value of defender to the previous opponent
     // when click the available to attack div
+  
+    message("you defeated " + defender.name);
     defender = false;
-   
 });
+
+var message = function(string){
+    $("#game-message").text(string);
+};
 
 });
