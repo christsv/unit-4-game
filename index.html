@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+
+    <head>
+        <meta charset = "UTF-8">
+        <title> Star Wars wiht JQ</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Game Logic -->
+		<script type="text/javascript" src="assets/javascript/game.js"></script>   
+    </head>
+
+
+    <body>
+
+        <div class = "main-section">Star Wars</div>
+        <div id = "main-game-section">
+            <!-- where the characters are selected-->
+            <div id ="characters-section">
+                <div class = "selection-title">Select your Character</div>
+            </div>
+
+            <!-- selection for out selected character-->
+            <div id="selected-charcter-selection">
+                <div class="section-title"> Your Character</div>
+                <!-- where the selected character appears-->
+                <div id = "selected-character"></div>
+
+            </div>
+
+            <div id="available-to-attack-selection">
+                <div class="selection-title">Enemies to attack</div>
+            </div>
+
+            <div class="selection-title"> Fight Section</div>
+            <div id="fight-seciton">
+                <button id = "attack-button"> Attack </button>
+            </div>
+
+            <div id="action">
+                <div class = "character-selection">
+                    <div class = "selection-title"> Defender</div>
+                    <div id = "defender"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Area for game messages-->
+        <div id = "game-message">game messages</div>
+    </body>
+
+</html>
